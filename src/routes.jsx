@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from "./pages/Home";
+import SimpleHome from "./pages/SimpleHome";
 import Layout from "./components/Layout";
 
 
@@ -8,7 +8,7 @@ const routes = [
     path: "/",
     element: <Layout />,
     children: [
-      { index: true, element: <Home /> },
+      { index: true, element: <SimpleHome /> },
   
    
     ],
